@@ -1,0 +1,2065 @@
+{
+    "meta": {
+        "count": 2697,
+        "db_response_time_ms": 41,
+        "page": 1,
+        "per_page": 3,
+        "groups_count": null,
+        "x_query": {
+            "oql": "get works where exact institution is (I206945453) and published since 2025-01-01",
+            "x_new_oql": "get works since 2025-01-01 where exact institution is (I206945453)",
+            "oqo": {
+                "get_rows": "works",
+                "filter_rows": [
+                    {
+                        "column_id": "authorships.institutions.id",
+                        "value": "I206945453"
+                    },
+                    {
+                        "column_id": "from_publication_date",
+                        "value": "2025-01-01"
+                    }
+                ]
+            },
+            "url": "/works?filter=authorships.institutions.id:I206945453,from_publication_date:2025-01-01&per_page=3"
+        },
+        "cost_usd": 0.0001
+    },
+    "results": [
+        {
+            "id": "https://openalex.org/W4406822672",
+            "title": "Operando Characterization of Fe in Doped Ni x (Fe 1\u2013 x )O y H z Catalysts for Electrochemical Oxygen Evolution",
+            "publication_year": 2025,
+            "cited_by_count": 72,
+            "open_access": {
+                "is_oa": true,
+                "oa_status": "hybrid",
+                "oa_url": "https://doi.org/10.1021/jacs.4c13417",
+                "any_repository_has_fulltext": true
+            },
+            "primary_topic": {
+                "id": "https://openalex.org/T10030",
+                "display_name": "Electrocatalysts for Energy Conversion",
+                "score": 0.9984999895095825,
+                "subfield": {
+                    "id": "https://openalex.org/subfields/2105",
+                    "display_name": "Renewable Energy, Sustainability and the Environment"
+                },
+                "field": {
+                    "id": "https://openalex.org/fields/21",
+                    "display_name": "Energy"
+                },
+                "domain": {
+                    "id": "https://openalex.org/domains/3",
+                    "display_name": "Physical Sciences"
+                }
+            },
+            "authorships": [
+                {
+                    "author_position": "first",
+                    "author": {
+                        "id": "https://openalex.org/A5036960935",
+                        "display_name": "Joakim Halldin Stenlid",
+                        "orcid": "https://orcid.org/0000-0003-3832-2331",
+                        "observed_orcids": [
+                            "https://orcid.org/0000-0003-3832-2331"
+                        ]
+                    },
+                    "institutions": [
+                        {
+                            "id": "https://openalex.org/I161593684",
+                            "display_name": "Stockholm University",
+                            "ror": "https://ror.org/05f0yaq80",
+                            "country_code": "SE",
+                            "type": "education",
+                            "lineage": [
+                                "https://openalex.org/I161593684"
+                            ]
+                        },
+                        {
+                            "id": "https://openalex.org/I2801935854",
+                            "display_name": "SLAC National Accelerator Laboratory",
+                            "ror": "https://ror.org/05gzmn429",
+                            "country_code": "US",
+                            "type": "facility",
+                            "lineage": [
+                                "https://openalex.org/I1330989302",
+                                "https://openalex.org/I2801935854",
+                                "https://openalex.org/I39565521",
+                                "https://openalex.org/I97018004"
+                            ]
+                        },
+                        {
+                            "id": "https://openalex.org/I4210135511",
+                            "display_name": "AlbaNova",
+                            "ror": "https://ror.org/044kkfr75",
+                            "country_code": "SE",
+                            "type": "facility",
+                            "lineage": [
+                                "https://openalex.org/I4210135511"
+                            ]
+                        },
+                        {
+                            "id": "https://openalex.org/I97018004",
+                            "display_name": "Stanford University",
+                            "ror": "https://ror.org/00f54p054",
+                            "country_code": "US",
+                            "type": "education",
+                            "lineage": [
+                                "https://openalex.org/I97018004"
+                            ]
+                        }
+                    ],
+                    "countries": [
+                        "SE",
+                        "US"
+                    ],
+                    "is_corresponding": false,
+                    "raw_author_name": "Joakim Halldin Stenlid",
+                    "raw_affiliation_strings": [
+                        "Department of Physics, Alba Nova Research Center",
+                        "SUNCAT Center for Interface Science and Catalysis, Department of Engineering, Stanford University, 443 Via Ortega, Stanford, California 94305, United States",
+                        "SUNCAT Center for Interface Science and Catalysis, SLAC National Accelerator Laboratory, 2575 Sandhill Road, Menlo Park, California 94025, United States",
+                        "Stockholm University",
+                        "Department of Physics, Alba Nova Research Center, Stockholm University, Stockholm SE-106 91 Sweden"
+                    ],
+                    "raw_orcid": "https://orcid.org/0000-0003-3832-2331",
+                    "affiliations": [
+                        {
+                            "raw_affiliation_string": "Department of Physics, Alba Nova Research Center",
+                            "institution_ids": [
+                                "https://openalex.org/I4210135511"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "SUNCAT Center for Interface Science and Catalysis, Department of Engineering, Stanford University, 443 Via Ortega, Stanford, California 94305, United States",
+                            "institution_ids": [
+                                "https://openalex.org/I97018004"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "SUNCAT Center for Interface Science and Catalysis, SLAC National Accelerator Laboratory, 2575 Sandhill Road, Menlo Park, California 94025, United States",
+                            "institution_ids": [
+                                "https://openalex.org/I2801935854"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "Stockholm University",
+                            "institution_ids": [
+                                "https://openalex.org/I161593684"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "Department of Physics, Alba Nova Research Center, Stockholm University, Stockholm SE-106 91 Sweden",
+                            "institution_ids": [
+                                "https://openalex.org/I161593684",
+                                "https://openalex.org/I4210135511"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author_position": "middle",
+                    "author": {
+                        "id": "https://openalex.org/A5019272572",
+                        "display_name": "Mikaela Gorlin",
+                        "orcid": "https://orcid.org/0000-0003-4472-955X",
+                        "observed_orcids": [
+                            "https://orcid.org/0000-0003-4472-955X"
+                        ]
+                    },
+                    "institutions": [
+                        {
+                            "id": "https://openalex.org/I123387679",
+                            "display_name": "Uppsala University",
+                            "ror": "https://ror.org/048a87296",
+                            "country_code": "SE",
+                            "type": "education",
+                            "lineage": [
+                                "https://openalex.org/I123387679"
+                            ]
+                        },
+                        {
+                            "id": "https://openalex.org/I161593684",
+                            "display_name": "Stockholm University",
+                            "ror": "https://ror.org/05f0yaq80",
+                            "country_code": "SE",
+                            "type": "education",
+                            "lineage": [
+                                "https://openalex.org/I161593684"
+                            ]
+                        },
+                        {
+                            "id": "https://openalex.org/I4210135511",
+                            "display_name": "AlbaNova",
+                            "ror": "https://ror.org/044kkfr75",
+                            "country_code": "SE",
+                            "type": "facility",
+                            "lineage": [
+                                "https://openalex.org/I4210135511"
+                            ]
+                        }
+                    ],
+                    "countries": [
+                        "SE"
+                    ],
+                    "is_corresponding": false,
+                    "raw_author_name": "Mikaela G\u00f6rlin",
+                    "raw_affiliation_strings": [
+                        "Department of Chemistry, \u00c5ngstr\u00f6m Laboratory",
+                        "Department of Physics, Alba Nova Research Center",
+                        "Stockholm University",
+                        "Uppsala University",
+                        "Department of Chemistry, \u00c5ngstr\u00f6m Laboratory, Uppsala University, Uppsala SE-751 21, Sweden",
+                        "Department of Physics, Alba Nova Research Center, Stockholm University, Stockholm SE-106 91 Sweden"
+                    ],
+                    "raw_orcid": "https://orcid.org/0000-0003-4472-955X",
+                    "affiliations": [
+                        {
+                            "raw_affiliation_string": "Department of Chemistry, \u00c5ngstr\u00f6m Laboratory",
+                            "institution_ids": [
+                                "https://openalex.org/I123387679"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "Department of Physics, Alba Nova Research Center",
+                            "institution_ids": [
+                                "https://openalex.org/I4210135511"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "Stockholm University",
+                            "institution_ids": [
+                                "https://openalex.org/I161593684"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "Uppsala University",
+                            "institution_ids": [
+                                "https://openalex.org/I123387679"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "Department of Chemistry, \u00c5ngstr\u00f6m Laboratory, Uppsala University, Uppsala SE-751 21, Sweden",
+                            "institution_ids": [
+                                "https://openalex.org/I123387679"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "Department of Physics, Alba Nova Research Center, Stockholm University, Stockholm SE-106 91 Sweden",
+                            "institution_ids": [
+                                "https://openalex.org/I161593684",
+                                "https://openalex.org/I4210135511"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author_position": "middle",
+                    "author": {
+                        "id": "https://openalex.org/A5007694533",
+                        "display_name": "Oscar D\u00edaz\u2010Morales",
+                        "orcid": "https://orcid.org/0000-0003-1221-0809",
+                        "observed_orcids": [
+                            "https://orcid.org/0000-0003-1221-0809"
+                        ]
+                    },
+                    "institutions": [
+                        {
+                            "id": "https://openalex.org/I148297040",
+                            "display_name": "Netherlands Organisation for Applied Scientific Research",
+                            "ror": "https://ror.org/01bnjb948",
+                            "country_code": "NL",
+                            "type": "nonprofit",
+                            "lineage": [
+                                "https://openalex.org/I148297040"
+                            ]
+                        },
+                        {
+                            "id": "https://openalex.org/I161593684",
+                            "display_name": "Stockholm University",
+                            "ror": "https://ror.org/05f0yaq80",
+                            "country_code": "SE",
+                            "type": "education",
+                            "lineage": [
+                                "https://openalex.org/I161593684"
+                            ]
+                        },
+                        {
+                            "id": "https://openalex.org/I4210135511",
+                            "display_name": "AlbaNova",
+                            "ror": "https://ror.org/044kkfr75",
+                            "country_code": "SE",
+                            "type": "facility",
+                            "lineage": [
+                                "https://openalex.org/I4210135511"
+                            ]
+                        },
+                        {
+                            "id": "https://openalex.org/I4210153656",
+                            "display_name": "Holst Centre (Netherlands)",
+                            "ror": "https://ror.org/04abpa862",
+                            "country_code": "NL",
+                            "type": "company",
+                            "lineage": [
+                                "https://openalex.org/I4210153656"
+                            ]
+                        }
+                    ],
+                    "countries": [
+                        "NL",
+                        "SE"
+                    ],
+                    "is_corresponding": false,
+                    "raw_author_name": "Oscar Diaz-Morales",
+                    "raw_affiliation_strings": [
+                        "Department of Physics, Alba Nova Research Center",
+                        "Holst Centre, Netherlands Organisation for Applied Scientific Research, HighTech Campus 31, Eindhoven, 5656, the Netherlands",
+                        "Stockholm University",
+                        "Department of Physics, Alba Nova Research Center, Stockholm University, Stockholm SE-106 91 Sweden"
+                    ],
+                    "raw_orcid": "https://orcid.org/0000-0003-1221-0809",
+                    "affiliations": [
+                        {
+                            "raw_affiliation_string": "Department of Physics, Alba Nova Research Center",
+                            "institution_ids": [
+                                "https://openalex.org/I4210135511"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "Holst Centre, Netherlands Organisation for Applied Scientific Research, HighTech Campus 31, Eindhoven, 5656, the Netherlands",
+                            "institution_ids": [
+                                "https://openalex.org/I148297040",
+                                "https://openalex.org/I4210153656"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "Stockholm University",
+                            "institution_ids": [
+                                "https://openalex.org/I161593684"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "Department of Physics, Alba Nova Research Center, Stockholm University, Stockholm SE-106 91 Sweden",
+                            "institution_ids": [
+                                "https://openalex.org/I161593684",
+                                "https://openalex.org/I4210135511"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author_position": "middle",
+                    "author": {
+                        "id": "https://openalex.org/A5045357923",
+                        "display_name": "Bernadette Davies",
+                        "orcid": "https://orcid.org/0000-0001-7122-2231",
+                        "observed_orcids": [
+                            "https://orcid.org/0000-0001-7122-2231"
+                        ]
+                    },
+                    "institutions": [
+                        {
+                            "id": "https://openalex.org/I161593684",
+                            "display_name": "Stockholm University",
+                            "ror": "https://ror.org/05f0yaq80",
+                            "country_code": "SE",
+                            "type": "education",
+                            "lineage": [
+                                "https://openalex.org/I161593684"
+                            ]
+                        },
+                        {
+                            "id": "https://openalex.org/I4210135511",
+                            "display_name": "AlbaNova",
+                            "ror": "https://ror.org/044kkfr75",
+                            "country_code": "SE",
+                            "type": "facility",
+                            "lineage": [
+                                "https://openalex.org/I4210135511"
+                            ]
+                        }
+                    ],
+                    "countries": [
+                        "SE"
+                    ],
+                    "is_corresponding": false,
+                    "raw_author_name": "Bernadette Davies",
+                    "raw_affiliation_strings": [
+                        "Department of Physics, Alba Nova Research Center",
+                        "Stockholm University",
+                        "Department of Physics, Alba Nova Research Center, Stockholm University, Stockholm SE-106 91 Sweden"
+                    ],
+                    "raw_orcid": "https://orcid.org/0000-0001-7122-2231",
+                    "affiliations": [
+                        {
+                            "raw_affiliation_string": "Department of Physics, Alba Nova Research Center",
+                            "institution_ids": [
+                                "https://openalex.org/I4210135511"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "Stockholm University",
+                            "institution_ids": [
+                                "https://openalex.org/I161593684"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "Department of Physics, Alba Nova Research Center, Stockholm University, Stockholm SE-106 91 Sweden",
+                            "institution_ids": [
+                                "https://openalex.org/I161593684",
+                                "https://openalex.org/I4210135511"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author_position": "middle",
+                    "author": {
+                        "id": null,
+                        "display_name": "Vladimir Grigorev",
+                        "orcid": null,
+                        "observed_orcids": []
+                    },
+                    "institutions": [
+                        {
+                            "id": "https://openalex.org/I161593684",
+                            "display_name": "Stockholm University",
+                            "ror": "https://ror.org/05f0yaq80",
+                            "country_code": "SE",
+                            "type": "education",
+                            "lineage": [
+                                "https://openalex.org/I161593684"
+                            ]
+                        },
+                        {
+                            "id": "https://openalex.org/I4210135511",
+                            "display_name": "AlbaNova",
+                            "ror": "https://ror.org/044kkfr75",
+                            "country_code": "SE",
+                            "type": "facility",
+                            "lineage": [
+                                "https://openalex.org/I4210135511"
+                            ]
+                        }
+                    ],
+                    "countries": [
+                        "SE"
+                    ],
+                    "is_corresponding": false,
+                    "raw_author_name": "Vladimir Grigorev",
+                    "raw_affiliation_strings": [
+                        "Department of Physics, Alba Nova Research Center",
+                        "Stockholm University",
+                        "Wallenberg Initiative Materials Science for Sustainability (WISE), Department of Physics",
+                        "Department of Physics, Alba Nova Research Center, Stockholm University, Stockholm SE-106 91 Sweden",
+                        "Wallenberg Initiative Materials Science for Sustainability (WISE), Department of Physics, Stockholm University, Stockholm SE-106 91, Sweden"
+                    ],
+                    "raw_orcid": null,
+                    "affiliations": [
+                        {
+                            "raw_affiliation_string": "Department of Physics, Alba Nova Research Center",
+                            "institution_ids": [
+                                "https://openalex.org/I4210135511"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "Stockholm University",
+                            "institution_ids": [
+                                "https://openalex.org/I161593684"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "Wallenberg Initiative Materials Science for Sustainability (WISE), Department of Physics",
+                            "institution_ids": []
+                        },
+                        {
+                            "raw_affiliation_string": "Department of Physics, Alba Nova Research Center, Stockholm University, Stockholm SE-106 91 Sweden",
+                            "institution_ids": [
+                                "https://openalex.org/I161593684",
+                                "https://openalex.org/I4210135511"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "Wallenberg Initiative Materials Science for Sustainability (WISE), Department of Physics, Stockholm University, Stockholm SE-106 91, Sweden",
+                            "institution_ids": [
+                                "https://openalex.org/I161593684"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author_position": "middle",
+                    "author": {
+                        "id": "https://openalex.org/A5061619210",
+                        "display_name": "David Degerman",
+                        "orcid": "https://orcid.org/0000-0001-6085-2916",
+                        "observed_orcids": [
+                            "https://orcid.org/0000-0001-6085-2916"
+                        ]
+                    },
+                    "institutions": [
+                        {
+                            "id": "https://openalex.org/I161593684",
+                            "display_name": "Stockholm University",
+                            "ror": "https://ror.org/05f0yaq80",
+                            "country_code": "SE",
+                            "type": "education",
+                            "lineage": [
+                                "https://openalex.org/I161593684"
+                            ]
+                        },
+                        {
+                            "id": "https://openalex.org/I4210135511",
+                            "display_name": "AlbaNova",
+                            "ror": "https://ror.org/044kkfr75",
+                            "country_code": "SE",
+                            "type": "facility",
+                            "lineage": [
+                                "https://openalex.org/I4210135511"
+                            ]
+                        }
+                    ],
+                    "countries": [
+                        "SE"
+                    ],
+                    "is_corresponding": false,
+                    "raw_author_name": "David Degerman",
+                    "raw_affiliation_strings": [
+                        "Department of Physics, Alba Nova Research Center",
+                        "Stockholm University",
+                        "Wallenberg Initiative Materials Science for Sustainability (WISE), Department of Physics",
+                        "Department of Physics, Alba Nova Research Center, Stockholm University, Stockholm SE-106 91 Sweden",
+                        "Wallenberg Initiative Materials Science for Sustainability (WISE), Department of Physics, Stockholm University, Stockholm SE-106 91, Sweden"
+                    ],
+                    "raw_orcid": "https://orcid.org/0000-0001-6085-2916",
+                    "affiliations": [
+                        {
+                            "raw_affiliation_string": "Department of Physics, Alba Nova Research Center",
+                            "institution_ids": [
+                                "https://openalex.org/I4210135511"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "Stockholm University",
+                            "institution_ids": [
+                                "https://openalex.org/I161593684"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "Wallenberg Initiative Materials Science for Sustainability (WISE), Department of Physics",
+                            "institution_ids": []
+                        },
+                        {
+                            "raw_affiliation_string": "Department of Physics, Alba Nova Research Center, Stockholm University, Stockholm SE-106 91 Sweden",
+                            "institution_ids": [
+                                "https://openalex.org/I161593684",
+                                "https://openalex.org/I4210135511"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "Wallenberg Initiative Materials Science for Sustainability (WISE), Department of Physics, Stockholm University, Stockholm SE-106 91, Sweden",
+                            "institution_ids": [
+                                "https://openalex.org/I161593684"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author_position": "middle",
+                    "author": {
+                        "id": "https://openalex.org/A5022025443",
+                        "display_name": "Aleksandr Kalinko",
+                        "orcid": "https://orcid.org/0000-0002-0615-4735",
+                        "observed_orcids": [
+                            "https://orcid.org/0000-0002-0615-4735"
+                        ]
+                    },
+                    "institutions": [
+                        {
+                            "id": "https://openalex.org/I206945453",
+                            "display_name": "Paderborn University",
+                            "ror": "https://ror.org/058kzsd48",
+                            "country_code": "DE",
+                            "type": "education",
+                            "lineage": [
+                                "https://openalex.org/I206945453"
+                            ]
+                        },
+                        {
+                            "id": "https://openalex.org/I2801876189",
+                            "display_name": "Deutsches Elektronen-Synchrotron DESY",
+                            "ror": "https://ror.org/01js2sh04",
+                            "country_code": "DE",
+                            "type": "facility",
+                            "lineage": [
+                                "https://openalex.org/I1305996414",
+                                "https://openalex.org/I2801876189"
+                            ]
+                        }
+                    ],
+                    "countries": [
+                        "DE"
+                    ],
+                    "is_corresponding": false,
+                    "raw_author_name": "Aleksandr Kalinko",
+                    "raw_affiliation_strings": [
+                        "Department of Chemistry and Center for Sustainable Systems Design (CSSD), University of Paderborn, Warburger Strasse 100, Paderborn D-33098, Germany",
+                        "Deutsches Elektronen-Synchrotron DESY, Notkestra\u00dfe 85, Hamburg D-22607, Germany"
+                    ],
+                    "raw_orcid": null,
+                    "affiliations": [
+                        {
+                            "raw_affiliation_string": "Department of Chemistry and Center for Sustainable Systems Design (CSSD), University of Paderborn, Warburger Strasse 100, Paderborn D-33098, Germany",
+                            "institution_ids": [
+                                "https://openalex.org/I206945453"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "Deutsches Elektronen-Synchrotron DESY, Notkestra\u00dfe 85, Hamburg D-22607, Germany",
+                            "institution_ids": [
+                                "https://openalex.org/I2801876189"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author_position": "middle",
+                    "author": {
+                        "id": "https://openalex.org/A5077011335",
+                        "display_name": "Mia B\u00f6rner",
+                        "orcid": null,
+                        "observed_orcids": []
+                    },
+                    "institutions": [
+                        {
+                            "id": "https://openalex.org/I161593684",
+                            "display_name": "Stockholm University",
+                            "ror": "https://ror.org/05f0yaq80",
+                            "country_code": "SE",
+                            "type": "education",
+                            "lineage": [
+                                "https://openalex.org/I161593684"
+                            ]
+                        },
+                        {
+                            "id": "https://openalex.org/I4210135511",
+                            "display_name": "AlbaNova",
+                            "ror": "https://ror.org/044kkfr75",
+                            "country_code": "SE",
+                            "type": "facility",
+                            "lineage": [
+                                "https://openalex.org/I4210135511"
+                            ]
+                        }
+                    ],
+                    "countries": [
+                        "SE"
+                    ],
+                    "is_corresponding": false,
+                    "raw_author_name": "Mia B\u00f6rner",
+                    "raw_affiliation_strings": [
+                        "Department of Physics, Alba Nova Research Center",
+                        "Stockholm University",
+                        "Department of Physics, Alba Nova Research Center, Stockholm University, Stockholm SE-106 91 Sweden"
+                    ],
+                    "raw_orcid": null,
+                    "affiliations": [
+                        {
+                            "raw_affiliation_string": "Department of Physics, Alba Nova Research Center",
+                            "institution_ids": [
+                                "https://openalex.org/I4210135511"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "Stockholm University",
+                            "institution_ids": [
+                                "https://openalex.org/I161593684"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "Department of Physics, Alba Nova Research Center, Stockholm University, Stockholm SE-106 91 Sweden",
+                            "institution_ids": [
+                                "https://openalex.org/I161593684",
+                                "https://openalex.org/I4210135511"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author_position": "middle",
+                    "author": {
+                        "id": "https://openalex.org/A5024958918",
+                        "display_name": "Mikhail Shipilin",
+                        "orcid": "https://orcid.org/0000-0003-1623-1578",
+                        "observed_orcids": [
+                            "https://orcid.org/0000-0003-1623-1578"
+                        ]
+                    },
+                    "institutions": [
+                        {
+                            "id": "https://openalex.org/I161593684",
+                            "display_name": "Stockholm University",
+                            "ror": "https://ror.org/05f0yaq80",
+                            "country_code": "SE",
+                            "type": "education",
+                            "lineage": [
+                                "https://openalex.org/I161593684"
+                            ]
+                        },
+                        {
+                            "id": "https://openalex.org/I4210135511",
+                            "display_name": "AlbaNova",
+                            "ror": "https://ror.org/044kkfr75",
+                            "country_code": "SE",
+                            "type": "facility",
+                            "lineage": [
+                                "https://openalex.org/I4210135511"
+                            ]
+                        }
+                    ],
+                    "countries": [
+                        "SE"
+                    ],
+                    "is_corresponding": false,
+                    "raw_author_name": "Mikhail Shipilin",
+                    "raw_affiliation_strings": [
+                        "Department of Physics, Alba Nova Research Center",
+                        "Stockholm University",
+                        "Department of Physics, Alba Nova Research Center, Stockholm University, Stockholm SE-106 91 Sweden"
+                    ],
+                    "raw_orcid": null,
+                    "affiliations": [
+                        {
+                            "raw_affiliation_string": "Department of Physics, Alba Nova Research Center",
+                            "institution_ids": [
+                                "https://openalex.org/I4210135511"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "Stockholm University",
+                            "institution_ids": [
+                                "https://openalex.org/I161593684"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "Department of Physics, Alba Nova Research Center, Stockholm University, Stockholm SE-106 91 Sweden",
+                            "institution_ids": [
+                                "https://openalex.org/I161593684",
+                                "https://openalex.org/I4210135511"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author_position": "middle",
+                    "author": {
+                        "id": "https://openalex.org/A5063622796",
+                        "display_name": "Matthias Bauer",
+                        "orcid": "https://orcid.org/0000-0002-9294-6076",
+                        "observed_orcids": [
+                            "https://orcid.org/0000-0002-9294-6076"
+                        ]
+                    },
+                    "institutions": [
+                        {
+                            "id": "https://openalex.org/I206945453",
+                            "display_name": "Paderborn University",
+                            "ror": "https://ror.org/058kzsd48",
+                            "country_code": "DE",
+                            "type": "education",
+                            "lineage": [
+                                "https://openalex.org/I206945453"
+                            ]
+                        }
+                    ],
+                    "countries": [
+                        "DE"
+                    ],
+                    "is_corresponding": false,
+                    "raw_author_name": "Matthias Bauer",
+                    "raw_affiliation_strings": [
+                        "Department of Chemistry and Center for Sustainable Systems Design (CSSD), University of Paderborn, Warburger Strasse 100, Paderborn D-33098, Germany"
+                    ],
+                    "raw_orcid": "https://orcid.org/0000-0002-9294-6076",
+                    "affiliations": [
+                        {
+                            "raw_affiliation_string": "Department of Chemistry and Center for Sustainable Systems Design (CSSD), University of Paderborn, Warburger Strasse 100, Paderborn D-33098, Germany",
+                            "institution_ids": [
+                                "https://openalex.org/I206945453"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author_position": "middle",
+                    "author": {
+                        "id": "https://openalex.org/A5005922681",
+                        "display_name": "Alessandro Gallo",
+                        "orcid": "https://orcid.org/0000-0003-4687-8188",
+                        "observed_orcids": [
+                            "https://orcid.org/0000-0003-4687-8188"
+                        ]
+                    },
+                    "institutions": [
+                        {
+                            "id": "https://openalex.org/I2801935854",
+                            "display_name": "SLAC National Accelerator Laboratory",
+                            "ror": "https://ror.org/05gzmn429",
+                            "country_code": "US",
+                            "type": "facility",
+                            "lineage": [
+                                "https://openalex.org/I1330989302",
+                                "https://openalex.org/I2801935854",
+                                "https://openalex.org/I39565521",
+                                "https://openalex.org/I97018004"
+                            ]
+                        },
+                        {
+                            "id": "https://openalex.org/I4210140559",
+                            "display_name": "Sila Nanotechnologies (United States)",
+                            "ror": "https://ror.org/03x82b295",
+                            "country_code": "US",
+                            "type": "company",
+                            "lineage": [
+                                "https://openalex.org/I4210140559"
+                            ]
+                        },
+                        {
+                            "id": "https://openalex.org/I97018004",
+                            "display_name": "Stanford University",
+                            "ror": "https://ror.org/00f54p054",
+                            "country_code": "US",
+                            "type": "education",
+                            "lineage": [
+                                "https://openalex.org/I97018004"
+                            ]
+                        }
+                    ],
+                    "countries": [
+                        "US"
+                    ],
+                    "is_corresponding": false,
+                    "raw_author_name": "Alessandro Gallo",
+                    "raw_affiliation_strings": [
+                        "SUNCAT Center for Interface Science and Catalysis, Department of Engineering, Stanford University, 443 Via Ortega, Stanford, California 94305, United States",
+                        "SUNCAT Center for Interface Science and Catalysis, SLAC National Accelerator Laboratory, 2575 Sandhill Road, Menlo Park, California 94025, United States",
+                        "Sila Nanotechnologies, 2470 Mariner Square Loop, Alameda, California 94501, United States"
+                    ],
+                    "raw_orcid": null,
+                    "affiliations": [
+                        {
+                            "raw_affiliation_string": "SUNCAT Center for Interface Science and Catalysis, Department of Engineering, Stanford University, 443 Via Ortega, Stanford, California 94305, United States",
+                            "institution_ids": [
+                                "https://openalex.org/I97018004"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "SUNCAT Center for Interface Science and Catalysis, SLAC National Accelerator Laboratory, 2575 Sandhill Road, Menlo Park, California 94025, United States",
+                            "institution_ids": [
+                                "https://openalex.org/I2801935854"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "Sila Nanotechnologies, 2470 Mariner Square Loop, Alameda, California 94501, United States",
+                            "institution_ids": [
+                                "https://openalex.org/I4210140559"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author_position": "middle",
+                    "author": {
+                        "id": "https://openalex.org/A5014248031",
+                        "display_name": "Frank Abild\u2010Pedersen",
+                        "orcid": "https://orcid.org/0000-0002-1911-074X",
+                        "observed_orcids": [
+                            "https://orcid.org/0000-0002-1911-074X"
+                        ]
+                    },
+                    "institutions": [
+                        {
+                            "id": "https://openalex.org/I2801935854",
+                            "display_name": "SLAC National Accelerator Laboratory",
+                            "ror": "https://ror.org/05gzmn429",
+                            "country_code": "US",
+                            "type": "facility",
+                            "lineage": [
+                                "https://openalex.org/I1330989302",
+                                "https://openalex.org/I2801935854",
+                                "https://openalex.org/I39565521",
+                                "https://openalex.org/I97018004"
+                            ]
+                        }
+                    ],
+                    "countries": [
+                        "US"
+                    ],
+                    "is_corresponding": false,
+                    "raw_author_name": "Frank Abild-Pedersen",
+                    "raw_affiliation_strings": [
+                        "SUNCAT Center for Interface Science and Catalysis, SLAC National Accelerator Laboratory, 2575 Sandhill Road, Menlo Park, California 94025, United States"
+                    ],
+                    "raw_orcid": "https://orcid.org/0000-0002-1911-074X",
+                    "affiliations": [
+                        {
+                            "raw_affiliation_string": "SUNCAT Center for Interface Science and Catalysis, SLAC National Accelerator Laboratory, 2575 Sandhill Road, Menlo Park, California 94025, United States",
+                            "institution_ids": [
+                                "https://openalex.org/I2801935854"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author_position": "middle",
+                    "author": {
+                        "id": "https://openalex.org/A5067205287",
+                        "display_name": "Michal Bajdich",
+                        "orcid": "https://orcid.org/0000-0003-1168-8616",
+                        "observed_orcids": [
+                            "https://orcid.org/0000-0003-1168-8616"
+                        ]
+                    },
+                    "institutions": [
+                        {
+                            "id": "https://openalex.org/I2801935854",
+                            "display_name": "SLAC National Accelerator Laboratory",
+                            "ror": "https://ror.org/05gzmn429",
+                            "country_code": "US",
+                            "type": "facility",
+                            "lineage": [
+                                "https://openalex.org/I1330989302",
+                                "https://openalex.org/I2801935854",
+                                "https://openalex.org/I39565521",
+                                "https://openalex.org/I97018004"
+                            ]
+                        }
+                    ],
+                    "countries": [
+                        "US"
+                    ],
+                    "is_corresponding": false,
+                    "raw_author_name": "Michal Bajdich",
+                    "raw_affiliation_strings": [
+                        "SUNCAT Center for Interface Science and Catalysis, SLAC National Accelerator Laboratory, 2575 Sandhill Road, Menlo Park, California 94025, United States"
+                    ],
+                    "raw_orcid": null,
+                    "affiliations": [
+                        {
+                            "raw_affiliation_string": "SUNCAT Center for Interface Science and Catalysis, SLAC National Accelerator Laboratory, 2575 Sandhill Road, Menlo Park, California 94025, United States",
+                            "institution_ids": [
+                                "https://openalex.org/I2801935854"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author_position": "middle",
+                    "author": {
+                        "id": "https://openalex.org/A5075231234",
+                        "display_name": "Anders Nilsson",
+                        "orcid": "https://orcid.org/0000-0003-1968-8696",
+                        "observed_orcids": [
+                            "https://orcid.org/0000-0003-1968-8696"
+                        ]
+                    },
+                    "institutions": [
+                        {
+                            "id": "https://openalex.org/I161593684",
+                            "display_name": "Stockholm University",
+                            "ror": "https://ror.org/05f0yaq80",
+                            "country_code": "SE",
+                            "type": "education",
+                            "lineage": [
+                                "https://openalex.org/I161593684"
+                            ]
+                        },
+                        {
+                            "id": "https://openalex.org/I2801935854",
+                            "display_name": "SLAC National Accelerator Laboratory",
+                            "ror": "https://ror.org/05gzmn429",
+                            "country_code": "US",
+                            "type": "facility",
+                            "lineage": [
+                                "https://openalex.org/I1330989302",
+                                "https://openalex.org/I2801935854",
+                                "https://openalex.org/I39565521",
+                                "https://openalex.org/I97018004"
+                            ]
+                        },
+                        {
+                            "id": "https://openalex.org/I4210135511",
+                            "display_name": "AlbaNova",
+                            "ror": "https://ror.org/044kkfr75",
+                            "country_code": "SE",
+                            "type": "facility",
+                            "lineage": [
+                                "https://openalex.org/I4210135511"
+                            ]
+                        }
+                    ],
+                    "countries": [
+                        "SE",
+                        "US"
+                    ],
+                    "is_corresponding": false,
+                    "raw_author_name": "Anders Nilsson",
+                    "raw_affiliation_strings": [
+                        "Department of Physics, Alba Nova Research Center",
+                        "SUNCAT Center for Interface Science and Catalysis, SLAC National Accelerator Laboratory, 2575 Sandhill Road, Menlo Park, California 94025, United States",
+                        "Stockholm University",
+                        "Wallenberg Initiative Materials Science for Sustainability (WISE), Department of Physics",
+                        "Department of Physics, Alba Nova Research Center, Stockholm University, Stockholm SE-106 91 Sweden",
+                        "Wallenberg Initiative Materials Science for Sustainability (WISE), Department of Physics, Stockholm University, Stockholm SE-106 91, Sweden"
+                    ],
+                    "raw_orcid": "https://orcid.org/0000-0003-1968-8696",
+                    "affiliations": [
+                        {
+                            "raw_affiliation_string": "Department of Physics, Alba Nova Research Center",
+                            "institution_ids": [
+                                "https://openalex.org/I4210135511"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "SUNCAT Center for Interface Science and Catalysis, SLAC National Accelerator Laboratory, 2575 Sandhill Road, Menlo Park, California 94025, United States",
+                            "institution_ids": [
+                                "https://openalex.org/I2801935854"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "Stockholm University",
+                            "institution_ids": [
+                                "https://openalex.org/I161593684"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "Wallenberg Initiative Materials Science for Sustainability (WISE), Department of Physics",
+                            "institution_ids": []
+                        },
+                        {
+                            "raw_affiliation_string": "Department of Physics, Alba Nova Research Center, Stockholm University, Stockholm SE-106 91 Sweden",
+                            "institution_ids": [
+                                "https://openalex.org/I161593684",
+                                "https://openalex.org/I4210135511"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "Wallenberg Initiative Materials Science for Sustainability (WISE), Department of Physics, Stockholm University, Stockholm SE-106 91, Sweden",
+                            "institution_ids": [
+                                "https://openalex.org/I161593684"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author_position": "last",
+                    "author": {
+                        "id": "https://openalex.org/A5048699879",
+                        "display_name": "Sergey Koroidov",
+                        "orcid": "https://orcid.org/0000-0003-4823-2188",
+                        "observed_orcids": [
+                            "https://orcid.org/0000-0003-4823-2188"
+                        ]
+                    },
+                    "institutions": [
+                        {
+                            "id": "https://openalex.org/I161593684",
+                            "display_name": "Stockholm University",
+                            "ror": "https://ror.org/05f0yaq80",
+                            "country_code": "SE",
+                            "type": "education",
+                            "lineage": [
+                                "https://openalex.org/I161593684"
+                            ]
+                        },
+                        {
+                            "id": "https://openalex.org/I4210135511",
+                            "display_name": "AlbaNova",
+                            "ror": "https://ror.org/044kkfr75",
+                            "country_code": "SE",
+                            "type": "facility",
+                            "lineage": [
+                                "https://openalex.org/I4210135511"
+                            ]
+                        }
+                    ],
+                    "countries": [
+                        "SE"
+                    ],
+                    "is_corresponding": true,
+                    "raw_author_name": "Sergey Koroidov",
+                    "raw_affiliation_strings": [
+                        "Department of Physics, Alba Nova Research Center",
+                        "Stockholm University",
+                        "Wallenberg Initiative Materials Science for Sustainability (WISE), Department of Physics",
+                        "Department of Physics, Alba Nova Research Center, Stockholm University, Stockholm SE-106 91 Sweden",
+                        "Wallenberg Initiative Materials Science for Sustainability (WISE), Department of Physics, Stockholm University, Stockholm SE-106 91, Sweden"
+                    ],
+                    "raw_orcid": "https://orcid.org/0000-0003-4823-2188",
+                    "affiliations": [
+                        {
+                            "raw_affiliation_string": "Department of Physics, Alba Nova Research Center",
+                            "institution_ids": [
+                                "https://openalex.org/I4210135511"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "Stockholm University",
+                            "institution_ids": [
+                                "https://openalex.org/I161593684"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "Wallenberg Initiative Materials Science for Sustainability (WISE), Department of Physics",
+                            "institution_ids": []
+                        },
+                        {
+                            "raw_affiliation_string": "Department of Physics, Alba Nova Research Center, Stockholm University, Stockholm SE-106 91 Sweden",
+                            "institution_ids": [
+                                "https://openalex.org/I161593684",
+                                "https://openalex.org/I4210135511"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "Wallenberg Initiative Materials Science for Sustainability (WISE), Department of Physics, Stockholm University, Stockholm SE-106 91, Sweden",
+                            "institution_ids": [
+                                "https://openalex.org/I161593684"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://openalex.org/W4406866500",
+            "title": "Research Directions in Software Supply Chain Security",
+            "publication_year": 2025,
+            "cited_by_count": 64,
+            "open_access": {
+                "is_oa": false,
+                "oa_status": "closed",
+                "oa_url": null,
+                "any_repository_has_fulltext": false
+            },
+            "primary_topic": {
+                "id": "https://openalex.org/T10734",
+                "display_name": "Information and Cyber Security",
+                "score": 0.548799991607666,
+                "subfield": {
+                    "id": "https://openalex.org/subfields/1710",
+                    "display_name": "Information Systems"
+                },
+                "field": {
+                    "id": "https://openalex.org/fields/17",
+                    "display_name": "Computer Science"
+                },
+                "domain": {
+                    "id": "https://openalex.org/domains/3",
+                    "display_name": "Physical Sciences"
+                }
+            },
+            "authorships": [
+                {
+                    "author_position": "first",
+                    "author": {
+                        "id": "https://openalex.org/A5028171895",
+                        "display_name": "Laurie A. Williams",
+                        "orcid": "https://orcid.org/0000-0003-3300-6540",
+                        "observed_orcids": [
+                            "https://orcid.org/0000-0003-3300-6540"
+                        ]
+                    },
+                    "institutions": [
+                        {
+                            "id": "https://openalex.org/I137902535",
+                            "display_name": "North Carolina State University",
+                            "ror": "https://ror.org/04tj63d06",
+                            "country_code": "US",
+                            "type": "education",
+                            "lineage": [
+                                "https://openalex.org/I137902535"
+                            ]
+                        }
+                    ],
+                    "countries": [
+                        "US"
+                    ],
+                    "is_corresponding": false,
+                    "raw_author_name": "Laurie Williams",
+                    "raw_affiliation_strings": [
+                        "North Carolina State University, Raleigh, North Carolina, USA",
+                        "North Carolina State University, Raleigh, NC, USA"
+                    ],
+                    "raw_orcid": "https://orcid.org/0000-0003-3300-6540",
+                    "affiliations": [
+                        {
+                            "raw_affiliation_string": "North Carolina State University, Raleigh, North Carolina, USA",
+                            "institution_ids": [
+                                "https://openalex.org/I137902535"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "North Carolina State University, Raleigh, NC, USA",
+                            "institution_ids": [
+                                "https://openalex.org/I137902535"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author_position": "middle",
+                    "author": {
+                        "id": "https://openalex.org/A5018136746",
+                        "display_name": "Giacomo Benedetti",
+                        "orcid": "https://orcid.org/0000-0003-2609-6787",
+                        "observed_orcids": [
+                            "https://orcid.org/0000-0003-2609-6787"
+                        ]
+                    },
+                    "institutions": [
+                        {
+                            "id": "https://openalex.org/I83816512",
+                            "display_name": "University of Genoa",
+                            "ror": "https://ror.org/0107c5v14",
+                            "country_code": "IT",
+                            "type": "education",
+                            "lineage": [
+                                "https://openalex.org/I83816512"
+                            ]
+                        }
+                    ],
+                    "countries": [
+                        "IT"
+                    ],
+                    "is_corresponding": false,
+                    "raw_author_name": "Giacomo Benedetti",
+                    "raw_affiliation_strings": [
+                        "University of Genoa, Genoa, Italy"
+                    ],
+                    "raw_orcid": "https://orcid.org/0000-0003-2609-6787",
+                    "affiliations": [
+                        {
+                            "raw_affiliation_string": "University of Genoa, Genoa, Italy",
+                            "institution_ids": [
+                                "https://openalex.org/I83816512"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author_position": "middle",
+                    "author": {
+                        "id": "https://openalex.org/A5042785629",
+                        "display_name": "Sivana Hamer",
+                        "orcid": "https://orcid.org/0009-0001-8381-1436",
+                        "observed_orcids": [
+                            "https://orcid.org/0009-0001-8381-1436"
+                        ]
+                    },
+                    "institutions": [
+                        {
+                            "id": "https://openalex.org/I137902535",
+                            "display_name": "North Carolina State University",
+                            "ror": "https://ror.org/04tj63d06",
+                            "country_code": "US",
+                            "type": "education",
+                            "lineage": [
+                                "https://openalex.org/I137902535"
+                            ]
+                        }
+                    ],
+                    "countries": [
+                        "US"
+                    ],
+                    "is_corresponding": false,
+                    "raw_author_name": "Sivana Hamer",
+                    "raw_affiliation_strings": [
+                        "North Carolina State University, Raleigh, North Carolina, USA",
+                        "North Carolina State University, Raleigh, NC, USA"
+                    ],
+                    "raw_orcid": "https://orcid.org/0009-0001-8381-1436",
+                    "affiliations": [
+                        {
+                            "raw_affiliation_string": "North Carolina State University, Raleigh, North Carolina, USA",
+                            "institution_ids": [
+                                "https://openalex.org/I137902535"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "North Carolina State University, Raleigh, NC, USA",
+                            "institution_ids": [
+                                "https://openalex.org/I137902535"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author_position": "middle",
+                    "author": {
+                        "id": "https://openalex.org/A5057850580",
+                        "display_name": "Ranindya Paramitha",
+                        "orcid": "https://orcid.org/0000-0002-6682-4243",
+                        "observed_orcids": [
+                            "https://orcid.org/0000-0002-6682-4243"
+                        ]
+                    },
+                    "institutions": [
+                        {
+                            "id": "https://openalex.org/I193223587",
+                            "display_name": "University of Trento",
+                            "ror": "https://ror.org/05trd4x28",
+                            "country_code": "IT",
+                            "type": "education",
+                            "lineage": [
+                                "https://openalex.org/I193223587"
+                            ]
+                        }
+                    ],
+                    "countries": [
+                        "IT"
+                    ],
+                    "is_corresponding": false,
+                    "raw_author_name": "Ranindya Paramitha",
+                    "raw_affiliation_strings": [
+                        "University of Trento, Trento, Italy",
+                        "University of Trento Trento, Italy"
+                    ],
+                    "raw_orcid": "https://orcid.org/0000-0002-6682-4243",
+                    "affiliations": [
+                        {
+                            "raw_affiliation_string": "University of Trento, Trento, Italy",
+                            "institution_ids": [
+                                "https://openalex.org/I193223587"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "University of Trento Trento, Italy",
+                            "institution_ids": [
+                                "https://openalex.org/I193223587"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author_position": "middle",
+                    "author": {
+                        "id": null,
+                        "display_name": "Imranur Rahman",
+                        "orcid": "https://orcid.org/0000-0002-9414-8756",
+                        "observed_orcids": [
+                            "https://orcid.org/0000-0002-9414-8756"
+                        ]
+                    },
+                    "institutions": [
+                        {
+                            "id": "https://openalex.org/I137902535",
+                            "display_name": "North Carolina State University",
+                            "ror": "https://ror.org/04tj63d06",
+                            "country_code": "US",
+                            "type": "education",
+                            "lineage": [
+                                "https://openalex.org/I137902535"
+                            ]
+                        }
+                    ],
+                    "countries": [
+                        "US"
+                    ],
+                    "is_corresponding": false,
+                    "raw_author_name": "Imranur Rahman",
+                    "raw_affiliation_strings": [
+                        "North Carolina State University, Raleigh, North Carolina, USA",
+                        "North Carolina State University, Raleigh, NC, USA"
+                    ],
+                    "raw_orcid": "https://orcid.org/0000-0002-9414-8756",
+                    "affiliations": [
+                        {
+                            "raw_affiliation_string": "North Carolina State University, Raleigh, North Carolina, USA",
+                            "institution_ids": [
+                                "https://openalex.org/I137902535"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "North Carolina State University, Raleigh, NC, USA",
+                            "institution_ids": [
+                                "https://openalex.org/I137902535"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author_position": "middle",
+                    "author": {
+                        "id": "https://openalex.org/A5014945704",
+                        "display_name": "Mahzabin Tamanna",
+                        "orcid": "https://orcid.org/0009-0005-3162-7580",
+                        "observed_orcids": [
+                            "https://orcid.org/0009-0005-3162-7580"
+                        ]
+                    },
+                    "institutions": [
+                        {
+                            "id": "https://openalex.org/I137902535",
+                            "display_name": "North Carolina State University",
+                            "ror": "https://ror.org/04tj63d06",
+                            "country_code": "US",
+                            "type": "education",
+                            "lineage": [
+                                "https://openalex.org/I137902535"
+                            ]
+                        }
+                    ],
+                    "countries": [
+                        "US"
+                    ],
+                    "is_corresponding": false,
+                    "raw_author_name": "Mahzabin Tamanna",
+                    "raw_affiliation_strings": [
+                        "North Carolina State University, Raleigh, North Carolina, USA",
+                        "North Carolina State University, Raleigh, NC, USA"
+                    ],
+                    "raw_orcid": "https://orcid.org/0009-0005-3162-7580",
+                    "affiliations": [
+                        {
+                            "raw_affiliation_string": "North Carolina State University, Raleigh, North Carolina, USA",
+                            "institution_ids": [
+                                "https://openalex.org/I137902535"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "North Carolina State University, Raleigh, NC, USA",
+                            "institution_ids": [
+                                "https://openalex.org/I137902535"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author_position": "middle",
+                    "author": {
+                        "id": "https://openalex.org/A5098537200",
+                        "display_name": "Greg Tystahl",
+                        "orcid": "https://orcid.org/0009-0006-1785-2455",
+                        "observed_orcids": [
+                            "https://orcid.org/0009-0006-1785-2455"
+                        ]
+                    },
+                    "institutions": [
+                        {
+                            "id": "https://openalex.org/I137902535",
+                            "display_name": "North Carolina State University",
+                            "ror": "https://ror.org/04tj63d06",
+                            "country_code": "US",
+                            "type": "education",
+                            "lineage": [
+                                "https://openalex.org/I137902535"
+                            ]
+                        }
+                    ],
+                    "countries": [
+                        "US"
+                    ],
+                    "is_corresponding": false,
+                    "raw_author_name": "Greg Tystahl",
+                    "raw_affiliation_strings": [
+                        "North Carolina State University, Raleigh, North Carolina, USA",
+                        "North Carolina State University, Raleigh, NC, USA"
+                    ],
+                    "raw_orcid": "https://orcid.org/0009-0006-1785-2455",
+                    "affiliations": [
+                        {
+                            "raw_affiliation_string": "North Carolina State University, Raleigh, North Carolina, USA",
+                            "institution_ids": [
+                                "https://openalex.org/I137902535"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "North Carolina State University, Raleigh, NC, USA",
+                            "institution_ids": [
+                                "https://openalex.org/I137902535"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author_position": "middle",
+                    "author": {
+                        "id": "https://openalex.org/A5101839591",
+                        "display_name": "Nusrat Zahan",
+                        "orcid": "https://orcid.org/0000-0002-2738-4118",
+                        "observed_orcids": [
+                            "https://orcid.org/0000-0002-2738-4118"
+                        ]
+                    },
+                    "institutions": [
+                        {
+                            "id": "https://openalex.org/I137902535",
+                            "display_name": "North Carolina State University",
+                            "ror": "https://ror.org/04tj63d06",
+                            "country_code": "US",
+                            "type": "education",
+                            "lineage": [
+                                "https://openalex.org/I137902535"
+                            ]
+                        }
+                    ],
+                    "countries": [
+                        "US"
+                    ],
+                    "is_corresponding": false,
+                    "raw_author_name": "Nusrat Zahan",
+                    "raw_affiliation_strings": [
+                        "North Carolina State University, Raleigh, North Carolina, USA",
+                        "North Carolina State University, Raleigh, NC, USA"
+                    ],
+                    "raw_orcid": "https://orcid.org/0000-0002-2738-4118",
+                    "affiliations": [
+                        {
+                            "raw_affiliation_string": "North Carolina State University, Raleigh, North Carolina, USA",
+                            "institution_ids": [
+                                "https://openalex.org/I137902535"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "North Carolina State University, Raleigh, NC, USA",
+                            "institution_ids": [
+                                "https://openalex.org/I137902535"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author_position": "middle",
+                    "author": {
+                        "id": "https://openalex.org/A5101506825",
+                        "display_name": "Patrick J. Morrison",
+                        "orcid": "https://orcid.org/0000-0003-0773-7817",
+                        "observed_orcids": [
+                            "https://orcid.org/0000-0003-0773-7817"
+                        ]
+                    },
+                    "institutions": [
+                        {
+                            "id": "https://openalex.org/I137902535",
+                            "display_name": "North Carolina State University",
+                            "ror": "https://ror.org/04tj63d06",
+                            "country_code": "US",
+                            "type": "education",
+                            "lineage": [
+                                "https://openalex.org/I137902535"
+                            ]
+                        }
+                    ],
+                    "countries": [
+                        "US"
+                    ],
+                    "is_corresponding": false,
+                    "raw_author_name": "Patrick Morrison",
+                    "raw_affiliation_strings": [
+                        "North Carolina State University, Raleigh, North Carolina, USA",
+                        "North Carolina State University, Raleigh, NC, USA"
+                    ],
+                    "raw_orcid": "https://orcid.org/0000-0003-0773-7817",
+                    "affiliations": [
+                        {
+                            "raw_affiliation_string": "North Carolina State University, Raleigh, North Carolina, USA",
+                            "institution_ids": [
+                                "https://openalex.org/I137902535"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "North Carolina State University, Raleigh, NC, USA",
+                            "institution_ids": [
+                                "https://openalex.org/I137902535"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author_position": "middle",
+                    "author": {
+                        "id": "https://openalex.org/A5074668699",
+                        "display_name": "Yasemin Acar",
+                        "orcid": "https://orcid.org/0000-0001-7167-7383",
+                        "observed_orcids": [
+                            "https://orcid.org/0000-0001-7167-7383"
+                        ]
+                    },
+                    "institutions": [
+                        {
+                            "id": "https://openalex.org/I193531525",
+                            "display_name": "George Washington University",
+                            "ror": "https://ror.org/00y4zzh67",
+                            "country_code": "US",
+                            "type": "education",
+                            "lineage": [
+                                "https://openalex.org/I193531525"
+                            ]
+                        },
+                        {
+                            "id": "https://openalex.org/I206945453",
+                            "display_name": "Paderborn University",
+                            "ror": "https://ror.org/058kzsd48",
+                            "country_code": "DE",
+                            "type": "education",
+                            "lineage": [
+                                "https://openalex.org/I206945453"
+                            ]
+                        }
+                    ],
+                    "countries": [
+                        "DE",
+                        "US"
+                    ],
+                    "is_corresponding": false,
+                    "raw_author_name": "Yasemin Acar",
+                    "raw_affiliation_strings": [
+                        "Paderborn University, Paderborn, Germany",
+                        "Paderborn University, Paderborn, Germany and George Washington University, DC, USA"
+                    ],
+                    "raw_orcid": "https://orcid.org/0000-0001-7167-7383",
+                    "affiliations": [
+                        {
+                            "raw_affiliation_string": "Paderborn University, Paderborn, Germany",
+                            "institution_ids": [
+                                "https://openalex.org/I206945453"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "Paderborn University, Paderborn, Germany and George Washington University, DC, USA",
+                            "institution_ids": [
+                                "https://openalex.org/I193531525",
+                                "https://openalex.org/I206945453"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author_position": "middle",
+                    "author": {
+                        "id": "https://openalex.org/A5050380937",
+                        "display_name": "Michel Cukier",
+                        "orcid": "https://orcid.org/0000-0001-6250-4632",
+                        "observed_orcids": [
+                            "https://orcid.org/0000-0001-6250-4632"
+                        ]
+                    },
+                    "institutions": [
+                        {
+                            "id": "https://openalex.org/I66946132",
+                            "display_name": "University of Maryland, College Park",
+                            "ror": "https://ror.org/047s2c258",
+                            "country_code": "US",
+                            "type": "education",
+                            "lineage": [
+                                "https://openalex.org/I66946132"
+                            ]
+                        }
+                    ],
+                    "countries": [
+                        "US"
+                    ],
+                    "is_corresponding": false,
+                    "raw_author_name": "Michel Cukier",
+                    "raw_affiliation_strings": [
+                        "University of Maryland, College Park, Maryland, USA",
+                        "University of Maryland, College Park, MD, USA"
+                    ],
+                    "raw_orcid": "https://orcid.org/0000-0001-6250-4632",
+                    "affiliations": [
+                        {
+                            "raw_affiliation_string": "University of Maryland, College Park, Maryland, USA",
+                            "institution_ids": [
+                                "https://openalex.org/I66946132"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "University of Maryland, College Park, MD, USA",
+                            "institution_ids": [
+                                "https://openalex.org/I66946132"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author_position": "middle",
+                    "author": {
+                        "id": "https://openalex.org/A5067467896",
+                        "display_name": "Christian K\u00e4stner",
+                        "orcid": "https://orcid.org/0000-0002-4450-4572",
+                        "observed_orcids": [
+                            "https://orcid.org/0000-0002-4450-4572",
+                            "https://orcid.org/0000-0002-8594-9439"
+                        ]
+                    },
+                    "institutions": [
+                        {
+                            "id": "https://openalex.org/I74973139",
+                            "display_name": "Carnegie Mellon University",
+                            "ror": "https://ror.org/05x2bcf33",
+                            "country_code": "US",
+                            "type": "education",
+                            "lineage": [
+                                "https://openalex.org/I74973139"
+                            ]
+                        }
+                    ],
+                    "countries": [
+                        "US"
+                    ],
+                    "is_corresponding": false,
+                    "raw_author_name": "Christian K\u00e4stner",
+                    "raw_affiliation_strings": [
+                        "Carnegie Mellon University, Pittsburgh, Pennsylvania, USA",
+                        "Carnegie Mellon University, Pittsburgh, PA, USA"
+                    ],
+                    "raw_orcid": "https://orcid.org/0000-0002-4450-4572",
+                    "affiliations": [
+                        {
+                            "raw_affiliation_string": "Carnegie Mellon University, Pittsburgh, Pennsylvania, USA",
+                            "institution_ids": [
+                                "https://openalex.org/I74973139"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "Carnegie Mellon University, Pittsburgh, PA, USA",
+                            "institution_ids": [
+                                "https://openalex.org/I74973139"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author_position": "middle",
+                    "author": {
+                        "id": "https://openalex.org/A5041544321",
+                        "display_name": "Alexandros Kapravelos",
+                        "orcid": "https://orcid.org/0000-0002-8839-8521",
+                        "observed_orcids": [
+                            "https://orcid.org/0000-0002-8839-8521"
+                        ]
+                    },
+                    "institutions": [
+                        {
+                            "id": "https://openalex.org/I137902535",
+                            "display_name": "North Carolina State University",
+                            "ror": "https://ror.org/04tj63d06",
+                            "country_code": "US",
+                            "type": "education",
+                            "lineage": [
+                                "https://openalex.org/I137902535"
+                            ]
+                        }
+                    ],
+                    "countries": [
+                        "US"
+                    ],
+                    "is_corresponding": false,
+                    "raw_author_name": "Alexandros Kapravelos",
+                    "raw_affiliation_strings": [
+                        "North Carolina State University, Raleigh, North Carolina, USA",
+                        "North Carolina State University, Raleigh, NC, USA"
+                    ],
+                    "raw_orcid": "https://orcid.org/0000-0002-8839-8521",
+                    "affiliations": [
+                        {
+                            "raw_affiliation_string": "North Carolina State University, Raleigh, North Carolina, USA",
+                            "institution_ids": [
+                                "https://openalex.org/I137902535"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "North Carolina State University, Raleigh, NC, USA",
+                            "institution_ids": [
+                                "https://openalex.org/I137902535"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author_position": "middle",
+                    "author": {
+                        "id": "https://openalex.org/A5004650891",
+                        "display_name": "Dominik Wermke",
+                        "orcid": "https://orcid.org/0009-0008-2921-1254",
+                        "observed_orcids": [
+                            "https://orcid.org/0009-0008-2921-1254"
+                        ]
+                    },
+                    "institutions": [
+                        {
+                            "id": "https://openalex.org/I137902535",
+                            "display_name": "North Carolina State University",
+                            "ror": "https://ror.org/04tj63d06",
+                            "country_code": "US",
+                            "type": "education",
+                            "lineage": [
+                                "https://openalex.org/I137902535"
+                            ]
+                        }
+                    ],
+                    "countries": [
+                        "US"
+                    ],
+                    "is_corresponding": false,
+                    "raw_author_name": "Dominik Wermke",
+                    "raw_affiliation_strings": [
+                        "North Carolina State University, Raleigh, North Carolina, USA",
+                        "North Carolina State University, Raleigh, NC, USA"
+                    ],
+                    "raw_orcid": "https://orcid.org/0009-0008-2921-1254",
+                    "affiliations": [
+                        {
+                            "raw_affiliation_string": "North Carolina State University, Raleigh, North Carolina, USA",
+                            "institution_ids": [
+                                "https://openalex.org/I137902535"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "North Carolina State University, Raleigh, NC, USA",
+                            "institution_ids": [
+                                "https://openalex.org/I137902535"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author_position": "last",
+                    "author": {
+                        "id": "https://openalex.org/A5024034310",
+                        "display_name": "William Enck",
+                        "orcid": "https://orcid.org/0000-0002-3043-8092",
+                        "observed_orcids": [
+                            "https://orcid.org/0000-0002-3043-8092"
+                        ]
+                    },
+                    "institutions": [
+                        {
+                            "id": "https://openalex.org/I137902535",
+                            "display_name": "North Carolina State University",
+                            "ror": "https://ror.org/04tj63d06",
+                            "country_code": "US",
+                            "type": "education",
+                            "lineage": [
+                                "https://openalex.org/I137902535"
+                            ]
+                        }
+                    ],
+                    "countries": [
+                        "US"
+                    ],
+                    "is_corresponding": false,
+                    "raw_author_name": "William Enck",
+                    "raw_affiliation_strings": [
+                        "North Carolina State University, Raleigh, North Carolina, USA",
+                        "North Carolina State University, Raleigh, NC, USA"
+                    ],
+                    "raw_orcid": "https://orcid.org/0000-0002-3043-8092",
+                    "affiliations": [
+                        {
+                            "raw_affiliation_string": "North Carolina State University, Raleigh, North Carolina, USA",
+                            "institution_ids": [
+                                "https://openalex.org/I137902535"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "North Carolina State University, Raleigh, NC, USA",
+                            "institution_ids": [
+                                "https://openalex.org/I137902535"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "https://openalex.org/W4407086617",
+            "title": "Emotions in mathematics learning: a systematic review and meta-analysis",
+            "publication_year": 2025,
+            "cited_by_count": 38,
+            "open_access": {
+                "is_oa": true,
+                "oa_status": "hybrid",
+                "oa_url": "https://link.springer.com/content/pdf/10.1007/s11858-025-01651-w.pdf",
+                "any_repository_has_fulltext": true
+            },
+            "primary_topic": {
+                "id": "https://openalex.org/T10547",
+                "display_name": "Education, Achievement, and Giftedness",
+                "score": 0.9976000189781189,
+                "subfield": {
+                    "id": "https://openalex.org/subfields/3205",
+                    "display_name": "Experimental and Cognitive Psychology"
+                },
+                "field": {
+                    "id": "https://openalex.org/fields/32",
+                    "display_name": "Psychology"
+                },
+                "domain": {
+                    "id": "https://openalex.org/domains/2",
+                    "display_name": "Social Sciences"
+                }
+            },
+            "authorships": [
+                {
+                    "author_position": "first",
+                    "author": {
+                        "id": "https://openalex.org/A5052084495",
+                        "display_name": "Johanna Schoenherr",
+                        "orcid": "https://orcid.org/0000-0002-6445-2917",
+                        "observed_orcids": [
+                            "https://orcid.org/0000-0002-6445-2917"
+                        ]
+                    },
+                    "institutions": [
+                        {
+                            "id": "https://openalex.org/I206945453",
+                            "display_name": "Paderborn University",
+                            "ror": "https://ror.org/058kzsd48",
+                            "country_code": "DE",
+                            "type": "education",
+                            "lineage": [
+                                "https://openalex.org/I206945453"
+                            ]
+                        }
+                    ],
+                    "countries": [
+                        "DE"
+                    ],
+                    "is_corresponding": true,
+                    "raw_author_name": "Johanna Schoenherr",
+                    "raw_affiliation_strings": [
+                        "Faculty of Computer Science, Electrical Engineering and Mathematics, Paderborn University, Paderborn, Germany"
+                    ],
+                    "raw_orcid": "https://orcid.org/0000-0002-6445-2917",
+                    "affiliations": [
+                        {
+                            "raw_affiliation_string": "Faculty of Computer Science, Electrical Engineering and Mathematics, Paderborn University, Paderborn, Germany",
+                            "institution_ids": [
+                                "https://openalex.org/I206945453"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author_position": "middle",
+                    "author": {
+                        "id": "https://openalex.org/A5052535587",
+                        "display_name": "Stanislaw Schukajlow",
+                        "orcid": "https://orcid.org/0000-0003-0519-5276",
+                        "observed_orcids": [
+                            "https://orcid.org/0000-0003-0519-5276"
+                        ]
+                    },
+                    "institutions": [
+                        {
+                            "id": "https://openalex.org/I22465464",
+                            "display_name": "University of M\u00fcnster",
+                            "ror": "https://ror.org/00pd74e08",
+                            "country_code": "DE",
+                            "type": "education",
+                            "lineage": [
+                                "https://openalex.org/I22465464"
+                            ]
+                        }
+                    ],
+                    "countries": [
+                        "DE"
+                    ],
+                    "is_corresponding": false,
+                    "raw_author_name": "Stanislaw Schukajlow",
+                    "raw_affiliation_strings": [
+                        "Institute of Mathematics Education and Computer Science Education, University of M\u00fcnster, M\u00fcnster, Germany"
+                    ],
+                    "raw_orcid": null,
+                    "affiliations": [
+                        {
+                            "raw_affiliation_string": "Institute of Mathematics Education and Computer Science Education, University of M\u00fcnster, M\u00fcnster, Germany",
+                            "institution_ids": [
+                                "https://openalex.org/I22465464"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "author_position": "last",
+                    "author": {
+                        "id": "https://openalex.org/A5000443091",
+                        "display_name": "Reinhard H. Pekrun",
+                        "orcid": "https://orcid.org/0000-0003-4489-3827",
+                        "observed_orcids": [
+                            "https://orcid.org/0000-0003-4489-3827"
+                        ]
+                    },
+                    "institutions": [
+                        {
+                            "id": "https://openalex.org/I110002522",
+                            "display_name": "University of Essex",
+                            "ror": "https://ror.org/02nkf1q06",
+                            "country_code": "GB",
+                            "type": "education",
+                            "lineage": [
+                                "https://openalex.org/I110002522"
+                            ]
+                        },
+                        {
+                            "id": "https://openalex.org/I8204097",
+                            "display_name": "Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen",
+                            "ror": "https://ror.org/05591te55",
+                            "country_code": "DE",
+                            "type": "education",
+                            "lineage": [
+                                "https://openalex.org/I8204097"
+                            ]
+                        },
+                        {
+                            "id": "https://openalex.org/I86695891",
+                            "display_name": "Australian Catholic University",
+                            "ror": "https://ror.org/04cxm4j25",
+                            "country_code": "AU",
+                            "type": "education",
+                            "lineage": [
+                                "https://openalex.org/I86695891"
+                            ]
+                        }
+                    ],
+                    "countries": [
+                        "AU",
+                        "DE",
+                        "GB"
+                    ],
+                    "is_corresponding": false,
+                    "raw_author_name": "Reinhard Pekrun",
+                    "raw_affiliation_strings": [
+                        "Department of Psychology, Ludwig-Maximilian-Universit\u00e4t, Munich, Germany",
+                        "Department of Psychology, University of Essex, Colchester, UK",
+                        "Institute for Positive Psychology and Education, Australian Catholic University, Sydney, Australia"
+                    ],
+                    "raw_orcid": null,
+                    "affiliations": [
+                        {
+                            "raw_affiliation_string": "Department of Psychology, Ludwig-Maximilian-Universit\u00e4t, Munich, Germany",
+                            "institution_ids": [
+                                "https://openalex.org/I8204097"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "Department of Psychology, University of Essex, Colchester, UK",
+                            "institution_ids": [
+                                "https://openalex.org/I110002522"
+                            ]
+                        },
+                        {
+                            "raw_affiliation_string": "Institute for Positive Psychology and Education, Australian Catholic University, Sydney, Australia",
+                            "institution_ids": [
+                                "https://openalex.org/I86695891"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "group_by": []
+}

@@ -1,0 +1,32 @@
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: pipeline
+      POSTGRES_PASSWORD: pipeline
+      POSTGRES_DB: openalex
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U pipeline -d openalex"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  s3:
+    image: chrislusf/seaweedfs:latest
+    command: mini -dir=/data
+    environment:
+      AWS_ACCESS_KEY_ID: lake-admin
+      AWS_SECRET_ACCESS_KEY: lake-secret-key
+    ports:
+      - "8333:8333"   # S3 API (what boto3 talks to)
+      - "8888:8888"   # file browser UI
+    volumes:
+      - s3data:/data
+
+volumes:
+  pgdata:
+  s3data:
