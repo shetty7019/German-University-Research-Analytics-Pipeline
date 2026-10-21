@@ -1,0 +1,42 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: pipeline
+          POSTGRES_PASSWORD: pipeline
+          POSTGRES_DB: openalex
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U pipeline -d openalex"
+          --health-interval 5s
+          --health-timeout 5s
+          --health-retries 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: python -m pip install -e '.[dev]' -r requirements.txt
+      - run: ruff check src tests scripts
+      - run: pytest
+      - name: Check dbt project parses
+        run: dbt parse --project-dir dbt --profiles-dir dbt
+        env:
+          DBT_HOST: localhost
+          DBT_USER: pipeline
+          DBT_PASSWORD: pipeline
+          DBT_DB: openalex
+          DBT_SCHEMA: analytics
+          DBT_PORT: "5432"
