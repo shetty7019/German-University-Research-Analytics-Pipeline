@@ -1,1 +1,12 @@
 .DS_Store
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+.coverage
+*.py[cod]
+target/
+dbt/target/
+dbt/logs/
+output/*
+!output/.gitkeep

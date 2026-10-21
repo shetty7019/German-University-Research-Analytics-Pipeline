@@ -1,0 +1,8 @@
+flowchart LR
+    OA[OpenAlex API<br/>ROR lookup + cursor pages] --> ETL[Python pipeline<br/>request, flatten, validate]
+    ETL -->|Raw JSON pages| S3[(S3-compatible lake<br/>SeaweedFS locally / AWS S3)]
+    ETL -->|Idempotent upsert| PG[(PostgreSQL<br/>works table)]
+    PG --> DBT[dbt staging models]
+    DBT --> MARTS[(Analytics schema<br/>institution year, topics, collaboration)]
+    TESTS[pytest + dbt tests + CI] -. validates .-> ETL
+    TESTS -. validates .-> DBT

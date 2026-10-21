@@ -1,0 +1,21 @@
+select
+    work_id,
+    doi,
+    title,
+    publication_year,
+    publication_date,
+    work_type,
+    language,
+    cited_by_count,
+    is_retracted,
+    is_open_access,
+    oa_status,
+    topic_id,
+    topic_name,
+    topic_subfield,
+    institution_id,
+    collaborating_institutions,
+    fwci,
+    updated_date,
+    loaded_at
+from {{ source('pipeline', 'works') }}

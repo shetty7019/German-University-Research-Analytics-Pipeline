@@ -1,0 +1,5 @@
+boto3==1.43.117
+dbt-core==1.9.4
+dbt-postgres==1.9.0
+psycopg[binary]==3.3.6
+requests==2.34.2

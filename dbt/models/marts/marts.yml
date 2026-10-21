@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: mart_institution_year
+    description: Annual research volume, access, and citation indicators per institution.
+    columns:
+      - name: institution_id
+        tests: [not_null]
+      - name: publication_year
+        tests: [not_null]
+      - name: works_count
+        tests: [not_null]
+  - name: mart_topic_output
+    description: Annual publication and citation metrics by OpenAlex topic.
+    columns:
+      - name: topic_id
+        tests: [not_null]
+  - name: mart_collaboration
+    description: Co-authorship institution pairs per publication year.
+    columns:
+      - name: collaborator_id
+        tests: [not_null]
