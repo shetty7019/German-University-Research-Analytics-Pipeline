@@ -1,0 +1,16 @@
+name: openalex_research_pipeline
+version: "1.0.0"
+config-version: 2
+
+profile: openalex_research_pipeline
+
+model-paths: ["models"]
+test-paths: ["tests"]
+clean-targets: ["target", "dbt_packages"]
+
+models:
+  openalex_research_pipeline:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table

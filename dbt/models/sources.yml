@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: pipeline
+    schema: public
+    tables:
+      - name: works
+        description: Normalized OpenAlex works loaded by the Python pipeline.
+        columns:
+          - name: work_id
+            description: OpenAlex work identifier.
+            tests:
+              - not_null
+              - unique

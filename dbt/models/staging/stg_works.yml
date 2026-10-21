@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: stg_works
+    description: Clean projection of OpenAlex work records.
+    columns:
+      - name: work_id
+        tests:
+          - not_null
+          - unique
+      - name: publication_year
+        tests:
+          - not_null
+      - name: institution_id
+        tests:
+          - not_null
